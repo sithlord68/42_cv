@@ -1,0 +1,76 @@
+StarUpDigital
+
+search for two new freelancers
+
+meet: client's recruiter
+
+sent by Jana Doe, head of HR at Technov, best tech talent recruiter marketplace specialized
+
+
+StartUpDigital
+young company, spec. creation of digital solutions for diverse range clients:
+- e-commerce
+- saas platforms
+- business tools
+
+junior freelance dev for team on specific projects
+collaborate with xp dev to address immediate needs
+
+- implement simple features on websites (forms, front-end, light back end task)
+- modifications: content integration, css style, fix html/javascript bugs
+- QA
+- Techsupport (improv/quick adjust)
+
+
+skills:
+- basic html, css and js (vanilla/simple frameworks like Vue.js, React)
+- basic  PHP or Python
+- git familliar
+
+accomplis:
+- personal / academic projects (portfolio / github est un +)
+- xp freelance ou interne est un + mais pas requis
+
+personal:
+- autonomy, fiabilite et ponctualite deadlines
+- communication ecrite claire pour suivi (feedback)
+- forte volonte d'apprendre vite
+
+duree:
+- initiale 1-3 mois, 10-15h par semaines (25-30%)
+- tad avec checkin hebdo en visio
+
+pourquoi rejoindre startupdigital ?
+- travail concret impactant la clientele
+- guide par des devs skilled pour evoluer
+- possibilite d'extension de la collab selon perfs
+
+
+
+
+
+points:
+🔹 Forms (formulaires)
+- structurer un formulaire propre, le relier à un traitement, et gérer les retours utilisateur ?
+🔹 Front-end
+- transformer une maquette (Figma/XD) en page web qui s'affiche bien sur mobile ET desktop ?
+🔹 Light back-end task (tâche back-end légère)
+- faire le "pont" entre ce que l'utilisateur voit et ce qui se passe dans le serveur, sans te noyer dans de la logique métier complexe ?
+🔹 Content integration (intégration de contenu)
+- intégrer du contenu sans "casser" le design, en respectant la charte graphique ?
+🔹 CSS style (modifications de style)
+- intervenir proprement sur une feuille de style existante sans tout casser ailleurs ?
+🔹 Fix HTML / JavaScript bugs
+- lire une erreur dans la console, retrouver la ligne de code qui pose problème, et appliquer un correctif sans paniquer ?
+
+Le "mindset" attendu par l'entreprise
+
+    ✅ Est opérationnel rapidement (pas besoin de 6 mois de formation).
+
+    ✅ Sait naviguer dans un code existant (pas seulement partir de zéro).
+
+    ✅ A du bon sens : tester son travail sur mobile + desktop + 2 navigateurs avant de livrer.
+
+    ✅ Sait utiliser les outils de base : console navigateur, inspecteur d'éléments, Git (commit/push), et éventuellement un outil comme Postman pour tester l'API.
+
+    ✅ Communique : quand il bloque, il demande de l'aide en expliquant ce qu'il a déjà essayé.
