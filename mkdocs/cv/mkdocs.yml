@@ -1,0 +1,41 @@
+site_name: Pascal Jolidon
+site_url: https://sithlord68.github.io/whoami/
+theme:
+  name: material
+  logo: assets/photo.jpg          # icône dans la barre de navigation (petit)
+  favicon: assets/favicon.ico     # facultatif
+  features:
+    - navigation.sections         # menu latéral avec sections regroupées
+    - navigation.top              # bouton "retour en haut"
+    - navigation.instant          # navigation instantanée (SPA)
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Mode sombre
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Mode clair
+markdown_extensions:
+  - attr_list
+nav:
+  - Accueil: index.md
+  - CV: cv.md
+  - Projets: projects.md
+  - Contact: index.md#contact   # redirige vers l'ancre #contact dans index.md
+
+
+#  name: mkdocs
+#  name: material
+#  name: readthedocs
+#  name: cinder
+#  name: alabaster
+#  name: bootstrap
+#  name: windmill
+#  name: ivory
+#  name: resume
+#  name: portfolio
+

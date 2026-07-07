@@ -1,0 +1,14 @@
+site_name: Présentation de Pascal Jolidon
+site_url: https://github.com/sithlord68//whoami/
+theme:
+  name: mkdocs
+#  name: material
+#  name: readthedocs
+#  name: cinder
+#  name: alabaster
+#  name: bootstrap
+#  name: windmill
+#  name: ivory
+#  name: resume
+#  name: portfolio
+

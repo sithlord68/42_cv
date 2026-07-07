@@ -1,0 +1,77 @@
+1. Prérequis
+Python et pip installés (dans votre WSL ou Windows, au choix).
+
+Un compte GitHub et un dépôt (ex: mon-cv).
+
+Git configuré.
+
+2. Installation de MkDocs
+bash
+pip install mkdocs
+Pour un rendu plus moderne, installez le thème Material (optionnel mais très apprécié) :
+
+bash
+pip install mkdocs-material
+3. Créer le projet
+Placez-vous dans le dossier de votre dépôt Git, puis :
+
+bash
+mkdocs new .
+Cela génère :
+
+mkdocs.yml (configuration du site)
+
+docs/index.md (votre CV en Markdown)
+
+4. Rédiger son CV
+Éditez docs/index.md avec votre contenu. Exemple minimal :
+
+markdown
+# John Doe
+Développeur Full Stack | contact@example.com
+
+## Expérience
+- **2022-2025** – Ingénieur logiciel chez ABC Corp.
+- **2020-2022** – Développeur web chez XYZ Agency.
+
+## Compétences
+- Python, JavaScript, Git, Docker...
+Vous pouvez ajouter d’autres pages (ex: projets.md) en les plaçant dans docs/.
+
+5. Configurer mkdocs.yml
+Exemple de configuration basique avec le thème Material :
+
+yaml
+site_name: CV de John Doe
+site_url: https://votre-compte.github.io/mon-cv/
+theme:
+  name: material
+Si vous gardez le thème par défaut, supprimez ou commentez la ligne theme.
+
+6. Tester en local
+bash
+mkdocs serve
+Ouvrez http://127.0.0.1:8000 dans votre navigateur. Tout changement dans docs/ est rechargé automatiquement.
+
+7. Déployer sur GitHub Pages
+Depuis la racine de votre dépôt Git :
+
+bash
+mkdocs gh-deploy
+Cette commande compile votre site, crée une branche gh-pages et pousse le contenu.
+Assurez-vous d’avoir poussé au préalable votre code source sur la branche main/master.
+
+8. Activer GitHub Pages (si ce n’est pas automatique)
+Dans votre dépôt GitHub, allez dans Settings > Pages.
+
+Sélectionnez la branche gh-pages et le dossier / (root).
+
+Votre CV sera accessible à https://votre-compte.github.io/mon-cv/.
+
+🎨 Pour un CV plus travaillé
+Explorez les extensions Markdown (meta, admonition, attr_list) dans mkdocs.yml pour ajouter des icônes, des blocs colorés.
+
+Des thèmes communautaires comme mkdocs-cv existent, mais le thème Material avec une page unique fait très bien l’affaire.
+
+Si vous préférez un CV orienté “fiche”, vous pouvez utiliser un simple README.md avec un thème MkDocs minimal.
+
